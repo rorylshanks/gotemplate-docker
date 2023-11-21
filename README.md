@@ -9,9 +9,9 @@
     gotemplate is a powerful templating language, and this tool allows you to use it easily on the command line
     <br />
     <br />
-    <a href="https://github.com/megalan247/gotemplate-docker/issues">Report Bug</a>
+    <a href="https://github.com/rorylshanks/gotemplate-docker/issues">Report Bug</a>
     ·
-    <a href="https://github.com/megalan247/gotemplate-docker/issues">Request Feature</a>
+    <a href="https://github.com/rorylshanks/gotemplate-docker/issues">Request Feature</a>
   </p>
 </div>
 
@@ -62,7 +62,7 @@ Alternatively, you can use `gotemplate` in your Docker build process. This is pa
    FROM your-base-image
 
    # Copy the gotemplate binary from the first stage
-   COPY --from=gotemplate /path/to/gotemplate /usr/local/bin/gotemplate
+   COPY --from=gotemplate /gotemplate /usr/local/bin/gotemplate
 
    # Rest of your Dockerfile...
    ```
